@@ -1,10 +1,11 @@
 import PostList from "./PostList";
+import { Container } from "semantic-ui-react/";
 
 const App = () => {
   return (
-    <div>
+    <Container>
       <PostList />
-    </div>
+    </Container>
   );
 };
 
